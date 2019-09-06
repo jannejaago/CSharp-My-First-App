@@ -11,7 +11,11 @@ namespace MyApp
             string name;
             name = Console.ReadLine();
             Console.WriteLine("Fuck off "+name);
-     
+            Console.WriteLine("Yo. What year were you born at?");
+            int year;
+            year = int.Parse(Console.ReadLine());
+            int age = 2019 - year;
+            Console.WriteLine("You old faggot, " + age + " old");
             Console.ReadLine();
         }
     }
